@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+:root.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-body);
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+body.dark {
+  background: radial-gradient(circle at top, rgba(108, 99, 241, 0.25), #030712 40%);
+  color: #e2e8f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-grid {
+  background-image: radial-gradient(circle at top, rgba(108, 99, 241, 0.18), transparent 55%);
+}
+
+.section-surface {
+  background: linear-gradient(120deg, rgba(108, 99, 241, 0.08), rgba(66, 200, 255, 0.08));
+}
