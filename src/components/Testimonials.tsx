@@ -1,11 +1,11 @@
 const testimonials = [
   {
-    quote: "Gemini3 Pro 将多模态认知聚合到单一语义底座，AI Hub 成为了我们编排 AI 应用的中枢神经。",
-    author: "智能产品总监 · 枢纽科技"
+    quote: "Gemini3 Pro unifies multimodal cognition on a single semantic base; the Hub is now our central nervous system for AI orchestration.",
+    author: "Product Director · Nexus Tech"
   },
   {
-    quote: "无需从零搭建推理栈，直接在 Hub 内复用工具链，2 周上线行业方案。",
-    author: "创新架构师 · LinkAge Labs"
+    quote: "We reused the Hub toolchain without rebuilding a stack from scratch and shipped our industry solution in two weeks.",
+    author: "Innovation Architect · LinkAge Labs"
   }
 ];
 

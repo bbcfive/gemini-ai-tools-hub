@@ -26,10 +26,10 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={handleToggle}
-      aria-label="切换深浅色主题"
+      aria-label="Toggle light and dark themes"
       className="rounded-full border border-slate-200/60 px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-100 dark:hover:bg-slate-800"
     >
-      {theme === "dark" ? "浅色" : "深色"}
+      {theme === "dark" ? "Light" : "Dark"}
     </button>
   );
 }

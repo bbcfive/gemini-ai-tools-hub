@@ -59,7 +59,7 @@ export function ToolGallery({ searchTerm }: ToolGalleryProps) {
 
       {displayedTools.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-slate-300 bg-white/70 px-6 py-12 text-center text-slate-500 dark:border-slate-700 dark:bg-slate-900/50">
-          暂未匹配到相关工具，尝试更换关键词或查看其他分类。
+          No matching tools yet. Try another keyword or switch the category filter.
         </div>
       ) : (
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">

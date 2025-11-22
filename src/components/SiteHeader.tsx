@@ -2,10 +2,10 @@ import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 
 const navLinks = [
-  { href: "#vision", label: "愿景" },
-  { href: "#toolset", label: "工具集" },
-  { href: "#workflow", label: "工作流" },
-  { href: "#cta", label: "立即体验" }
+  { href: "#vision", label: "Vision" },
+  { href: "#toolset", label: "Toolset" },
+  { href: "#workflow", label: "Workflows" },
+  { href: "#cta", label: "Join Beta" }
 ];
 
 export function SiteHeader() {
